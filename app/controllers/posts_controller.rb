@@ -5,7 +5,7 @@ class PostsController < ApplicationController
   def index
     @posts = Post.all
     #  can only be usable in index.html
-    @global_index_var = 'Hello! if this was React, you would compare me (this string) to a useContext variable (check posts_controller)'
+    @say_hello = 'Hello! if this was React, you would compare me (this string) to a useContext variable (check posts_controller)'
   end
 
   # GET /posts/1 or /posts/1.json
